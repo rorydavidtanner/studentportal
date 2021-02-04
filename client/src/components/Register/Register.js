@@ -59,7 +59,7 @@ function Register(props) {
             <div className="row">
                 <div className="mx-auto mt-5 col-md-6">
                     <form noValidate onSubmit={onSubmit}>
-                        <h1 className="mb-3 h3 font-weight normal">Please Sign in</h1>
+                        <h1 className="mb-3 h3 font-weight normal">Sign in here</h1>
                         <div className="form-group">
                             <label htmlFor="first_name">First Name</label>
                             <input

@@ -1,11 +1,33 @@
 .navbar {
-    background-color:#3f0f84;
+    background-color:#27D6C0;
 }
 
 .btn {
-    background-color: #001f3f !important;
-    color: #FFFFFF !important;
+    background-color: #ffffff !important;
+    color: rgb(0, 0, 0) !important;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    text-align:center;
+    transition: all 0.2s;
 }
+.nav-item:hover {
+    color:#000000;
+    background-color:#001f3f;
+}
+    @media all and (max-width:30em){
+.btn {
+    display:block;
+    margin:0.4em auto;
+}
+}
+
 
 /* .controlBtn {
     background-color: #001f3f;
