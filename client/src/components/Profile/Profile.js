@@ -14,7 +14,7 @@ function Profile() {
             <div className="flex-row-reverse mt-5 mr-5 d-flex">
                 <div className="col-xs-12 col-sm-12 col-md-9 jumbotron jumbotron-fluid cardBackground">
                     <div className="mx-auto col-sm-8">
-                        <h1 className="text-center">PROFILE</h1>
+                        <h1 className="text-center">Your Profile Area</h1>
                     </div>
                     <table className="table mx-auto col-md-6">
                         <tbody>
