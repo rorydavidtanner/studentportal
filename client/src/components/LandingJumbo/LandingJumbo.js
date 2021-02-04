@@ -8,9 +8,9 @@ function LandingJumbo() {
                     <div className="mr-2 sidebar-brand-icon rotate-n-15">
                         <i className="far fa-user-circle" />
                     </div>
-                    <div>TITLE</div>
+                    <div>Welcome to Hunter First Aid's Student Portal</div>
                 </h1>
-                <h2 className="text-center companySlogan">BEST SLOGAN HERE</h2>
+                <h2 className="text-center companySlogan">Access to online forms, at your finger tips.</h2>
             </div>
         </div>
     );

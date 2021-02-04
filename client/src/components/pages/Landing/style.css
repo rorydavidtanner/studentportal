@@ -1,5 +1,5 @@
 .backgroundImg {
-    background-image: url(../../assets/images/landingpagebackgroundimg.jpg);
+    background-image: url(../../assets/images/cpr.jpg);
     background-size:     cover;                  
     background-repeat:   no-repeat;
     background-position: center center;
@@ -11,7 +11,7 @@
 }
 
 .cardBackground{
-    background-color: rgb(231, 248, 255)!important;
+    background-color: #27D6C0!important;
 }
 
 
