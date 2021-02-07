@@ -7,6 +7,7 @@ import Landing from './components/pages/Landing/Landing';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Dashboard from './components/pages/Dashboard/Dashboard';
+import Attendance from './components/Attendance/Attendance';
 import Other from './components/pages/Other/Other';
 import Profile from './components/Profile/Profile';
 import StartUp from './components/pages/StartUp/StartUp';
@@ -22,7 +23,7 @@ function App() {
             <Router>
                 <div className="pl-0 pr-0 m-0 container-fluid">
                     <Navbar />
-                    <Footer />
+                    
                     <Route exact path="/" component={Landing} />
                     <div className="p-0 m-0 container-fluid">
                         <Route exact path="/register" component={Register} />
@@ -31,7 +32,9 @@ function App() {
                         <Route exact path="/Dashboard" component={Auth(Dashboard)} />
                         <Route exact path="/other" component={Other} />
                         <Route exact path="/startUp" component={StartUp} />
+                        <Route exact path="/Attendance" component={Attendance} />
                     </div>
+                    <Footer />
                 </div>
             </Router>
         </AppContextProvider>
