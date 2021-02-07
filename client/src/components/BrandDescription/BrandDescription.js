@@ -21,14 +21,14 @@ function BrandDescription() {
                 <div className="text-center cardBackground card col-md-3 col-xs-12">
                     <div className="card-body">
                         <h5 className="card-title">Follow Us!</h5><br></br>
-                        <a href="/">
+                        <a href="https://www.facebook.com/HunterFirstAid/">
                             <span className="fa-stack facebookLogo">
                                 <i className="far fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-facebook-f fa-stack-1x"></i>
                             </span>
                         </a>
                     
-                        <a href="/">
+                        <a href="https://www.instagram.com/hunterfirstaid/?hl=en">
                             <span className="fa-stack instagramLogo">
                                 <i className="far fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-instagram fa-stack-1x"></i>
@@ -40,5 +40,7 @@ function BrandDescription() {
         </div>
     );
 }
+
+
 
 export default BrandDescription;
