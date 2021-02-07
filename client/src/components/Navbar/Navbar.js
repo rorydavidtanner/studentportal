@@ -40,7 +40,7 @@ function Navbar() {
                 </Link>
             </li>
             <li>
-                <Link className="mb-1 mr-1 btn btn-sm active" to="/dashboard">
+                <Link className="mb-1 mr-1 btn btn-sm active" to="/Dashboard">
                     Dashboard
                 </Link>
             </li>
@@ -58,9 +58,9 @@ function Navbar() {
         </ul>
     );
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg px-5 py-0">
             <a className="navbar-brand" href="http://www.hunterfirstaid.training">
-                <img style={{ width: "280px"}} src={logo} alt="logo"></img>
+                <img style={{ width: "380px"}} src={logo} alt="logo"></img>
             </a>
             <div className="collapse navbar-collapse d-flex justify-content-end" id="navbar1">
                 {state.isAuthenticated ? userLink : loginRegLink}

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/footer';
 import Landing from './components/pages/Landing/Landing';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
@@ -21,12 +22,13 @@ function App() {
             <Router>
                 <div className="pl-0 pr-0 m-0 container-fluid">
                     <Navbar />
+                    <Footer />
                     <Route exact path="/" component={Landing} />
                     <div className="p-0 m-0 container-fluid">
                         <Route exact path="/register" component={Register} />
                         <Route exact path="/login" component={Login} />
                         <Route exact path="/profile" component={Profile} />
-                        <Route exact path="/dashboard" component={Auth(Dashboard)} />
+                        <Route exact path="/Dashboard" component={Auth(Dashboard)} />
                         <Route exact path="/other" component={Other} />
                         <Route exact path="/startUp" component={StartUp} />
                     </div>
