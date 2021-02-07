@@ -4,7 +4,18 @@ import styled from 'styled-components';
 
 const Footer = () => {
     return (
-        <FooterContainer></FooterContainer>
+        <FooterContainer>
+            <span 
+                style={{
+                    color: "#fff",
+                    top: "1rem",
+                    left: "1rem",
+                    position: "relative",
+                }}
+            >
+                &copy;{new Date().getFullYear()} All Rights Reserved. Hunter First Aid.
+            </span>
+        </FooterContainer>
     )
 }
 export default Footer
