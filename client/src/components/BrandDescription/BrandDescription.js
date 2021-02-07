@@ -1,21 +1,26 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function BrandDescription() {
     return (
-        <div className="p-0 m-0 container-fluid d-flex justify-content-center">
-            <div className="p-0 m-0 row">
-                <div className="cardBackground card col-md-9 col-xs-12">
-                    <div className="card-body">
-                        <h5 className="card-title">Student Forms</h5>
+        <div className="p-0 m-0 container-fluid d-flex justify-content-center w-100 p-3">
+            <div className="p-0 m-0 row fluid w-100 p-3">
+                <div className="cardBackground card col-md-9 col-xs-12 fluid">
+                    <div className="card-body fluid">
+                        <h5 className="card-title">Student Forms</h5><br></br>
                         <p className="card-text">
-                        <button>Register Attendance</button><button>Complete Feedback</button>
+                        <div class="text-center d-grid gap-2 fluid" id="">
+                        <button class="btn" type="button" id="registerButton">Register Attendance</button>
+                        <button class="btn" type="button" id="feedbackButton">Complete Feedback</button>
+                        </div>
                         </p>
                     </div>
+                    
                 </div>
 
                 <div className="text-center cardBackground card col-md-3 col-xs-12">
                     <div className="card-body">
-                        <h5 className="card-title">Follow Us!</h5>
+                        <h5 className="card-title">Follow Us!</h5><br></br>
                         <a href="/">
                             <span className="fa-stack facebookLogo">
                                 <i className="far fa-circle fa-stack-2x"></i>

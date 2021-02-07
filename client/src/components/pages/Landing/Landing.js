@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import LandingJumbo from '../../LandingJumbo/LandingJumbo';
 import BrandDescription from '../../BrandDescription/BrandDescription';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Landing() {
     return (

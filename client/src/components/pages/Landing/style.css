@@ -6,7 +6,7 @@
 }
 
 .landingJumbo {
-    width: 60%;
+    width: 50%;
     background-color: rgba(204, 204, 204, 0.6) !important;
 }
 
@@ -20,34 +20,36 @@
 }
 
 .companyName {
-    font-size: 5vw;
+    font-size: 3.5vw;
 }
 
 .companySlogan {
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+.btn {
+    background-color: rgb(140, 140, 140) !important;
+    outline-style: hidden !important;
+    outline-color: white !important;
+    padding: 15px !important;
+}
+
+.btn-hover {
+    background-color: hotpink !important;
 }
 
 .fa-stack {
-    vertical-align: top;
-    color: grey
+    vertical-align: bottom;
+    color: white
 }
 
 .facebookLogo:hover {
     color: #4267b2 !important;
 }
 
-.twitterLogo:hover {
-    color: #1da1f2 !important;
-}
+
 
 .instagramLogo:hover {
     color: #f09433; 
 }
 
-.linkedinLogo:hover {
-    color: #0073b0 !important;
-}
-
-.googleLogo:hover {
-    color: #dc5246 !important;
-}
