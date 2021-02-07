@@ -3,6 +3,8 @@ import { Link, useHistory } from 'react-router-dom';
 import { useAppContext } from '../../store';
 import { useLoginCheck, logout } from '../../utils/setAuthToken';
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from '../../../src/components/Navbar/HFA_Logo_transparent_small.png'
 
 function Navbar() {
     const history = useHistory();
@@ -57,6 +59,9 @@ function Navbar() {
     );
     return (
         <nav className="navbar navbar-expand-lg">
+            <a className="navbar-brand" href="http://www.hunterfirstaid.training">
+                <img style={{ width: "280px"}} src={logo} alt="logo"></img>
+            </a>
             <div className="collapse navbar-collapse d-flex justify-content-end" id="navbar1">
                 {state.isAuthenticated ? userLink : loginRegLink}
             </div>
