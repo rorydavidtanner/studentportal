@@ -39,12 +39,23 @@ function Sidebar() {
                 {/* Divider */}
                 <hr className="sidebar-divider d-none d-md-block" />
 
-                {/* Nav Item - Roster */}
+                {/* Nav Item - Regsiter Attendance  */}
                 <Item
                     active={''}
-                    href={'/Forms'}
+                    href={'/Attendance'}
                     icon={<i className="fas fa-calendar-week" />}
-                    text={<span>Student Forms</span>}
+                    text={<span>Register Attendance</span>}
+                />
+
+                {/* Divider */}
+                <hr className="sidebar-divider d-none d-md-block" />
+
+                 {/* Nav Item - Complete Feedback  */}
+                 <Item
+                    active={''}
+                    href={'/Feedback'}
+                    icon={<i className="fas fa-calendar-week" />}
+                    text={<span>Complete Feedback</span>}
                 />
 
                 {/* Divider */}
