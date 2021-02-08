@@ -42,9 +42,9 @@ function Sidebar() {
                 {/* Nav Item - Roster */}
                 <Item
                     active={''}
-                    href={'/other'}
+                    href={'/Forms'}
                     icon={<i className="fas fa-calendar-week" />}
-                    text={<span>Other</span>}
+                    text={<span>Student Forms</span>}
                 />
 
                 {/* Divider */}

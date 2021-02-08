@@ -7,15 +7,14 @@ function BrandDescription() {
             <div className="p-0 m-0 row fluid w-100 p-3">
                 <div className="cardBackground card col-md-9 col-xs-12 fluid">
                     <div className="card-body fluid">
-                        <h5 className="card-title">Student Forms</h5><br></br>
+                        <h5 className="card-title">Hunter First Aid - Local, Comprehensive and Individualised CPR and First Aid Training</h5><br></br>
                         <p className="card-text">
                         <div class="text-center d-grid gap-2 fluid" id="">
-                        <button class="btn" type="button" id="registerButton">Register Attendance</button>
-                        <button class="btn" type="button" id="feedbackButton">Complete Feedback</button>
+                        <p>Hunter First Aid is a Professional Training Service operating within the Hunter area. We specialise in CPR, First Aid, Aquatic Rescue and many more training courses which will interest you.
+                            Our aim is to provide quality facilitation and experiences of CPR and First Aid training to everyone. </p>
                         </div>
                         </p>
                     </div>
-                    
                 </div>
 
                 <div className="text-center cardBackground card col-md-3 col-xs-12">
