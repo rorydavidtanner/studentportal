@@ -8,7 +8,7 @@ export default function Feedback() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_f2mja5e', 'template_zigik5o', e.target, 'user_eYRgicD7vsNuF9O62tN6C')
+    emailjs.sendForm('service_f2mja5e', 'template_spi9wwh', e.target, 'user_eYRgicD7vsNuF9O62tN6C')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
