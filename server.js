@@ -33,16 +33,12 @@ app.use(
 app.use(express.static('public'));
 
 
-// DB Config
-const MONGODB_URI = "mongodb+srv://rorytanner:CTrJyGi6nuFsY6eWYdx@cluster0.67v7z.mongodb.net/reactrouter?retryWrites=true&w=majority";
-
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/reactrouter', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
         useFindAndModify: false,
-        useUnifiedTopology: true,
     })
     .then(() => console.log('MongoDB successfully connected'))
     .catch((err) => console.log(err));
@@ -62,6 +58,9 @@ app.use((req, res, next) => {
     next();
 });
 
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'))
+}
 // Start the API server
 app.listen(PORT, function () {
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
