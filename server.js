@@ -31,13 +31,16 @@ app.use(
 );
 
 app.use(express.static('public'));
+
+
 // DB Config
-const mongoURI = "mongodb+srv://rorytanner:CTrJyGi6nuFsY6eWYdx@cluster0.67v7z.mongodb.net/reactrouter?retryWrites=true&w=majority";
+const MONGODB_URI = "mongodb+srv://rorytanner:CTrJyGi6nuFsY6eWYdx@cluster0.67v7z.mongodb.net/reactrouter?retryWrites=true&w=majority";
 
 // Connect to MongoDB
-mongoose
-    .connect(process.env.MONGODB_URI || mongoURI, {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/reactrouter', {
         useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
         useFindAndModify: false,
         useUnifiedTopology: true,
     })
