@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function DashboardNewsCard() {
     return (
-        <div className="dashboardCard card cardBackground col-md-6 col-xs-12 fluid">
+        <div className="dashboardCard card cardBackground col-md-6 col-xs-12">
             <div className="card-body">
                 <h4 className="card-subtitle md">Welcome to your Dashboard!</h4>
                 <br></br>

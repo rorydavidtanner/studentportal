@@ -17,16 +17,33 @@ export default function Attendance() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      
-      <input type="text" name="user_name" placeholder='Enter name'/> <br></br>
-      
-      <input type="email" name="user_email" placeholder='Enter email'/> <br></br>
-      
-      <textarea name="comments" placeholder='Enter comments or questions here'/> <br></br>
-      <br></br>
-      <input type="submit" value="Register your Attendance at Training" />
-    </form>
+    <div style={{
+      textAlign: "center",
+      margin: '20px',
+      padding: '15px',
+    }}>
+      <form className="attendance-form" onSubmit={sendEmail} 
+        style = {{
+          width: '90%',
+          maxWidth: '40rem',
+          margin: '2 rem auto',
+          padding: '1 rem',
+          
+        }}
+      >
+        <input type="hidden" name="contact_number" />
+        
+        <input type="text" name="user_name" placeholder='Enter name'/> <br></br>
+        
+        <input type="email" name="user_email" placeholder='Enter email'/> <br></br>
+        
+        <textarea name="comments" placeholder='Enter comments or questions here'/> <br></br>
+        <br></br>
+        <input type="submit" value="Register your Attendance at Training" style={{
+          cursor: 'pointer',
+          border: '2 px solid'
+          }}/>
+      </form>
+    </div>
   );
 }

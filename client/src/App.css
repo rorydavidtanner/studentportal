@@ -192,7 +192,6 @@ h5 {
     /* The body's bg color will be #03fcf2 */
     body {
       background-color: #03fcf2;
-      width: fit-content;
     }
 
     h1 {

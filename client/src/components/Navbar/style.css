@@ -1,6 +1,5 @@
 .navbar {
     background-color:#27D6C0;
-    width: 100%;
 }
 
 .btn {
@@ -30,7 +29,7 @@
 }
 
 .navbar-brand {
-    float: right;
+    float: left;
 }
 
 
