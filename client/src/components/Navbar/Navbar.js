@@ -58,14 +58,16 @@ function Navbar() {
         </ul>
     );
     return (
-        <nav className="navbar navbar-expand-lg px-5 py-0 md">
-            <a className="navbar-brand" href="http://www.hunterfirstaid.training">
-                <img style={{ width: "380px"}} src={logo} alt="logo"></img>
-            </a>
-            <div className="collapse navbar-collapse d-flex justify-content-end" id="navbar1">
-                {state.isAuthenticated ? userLink : loginRegLink}
-            </div>
-        </nav>
+        <container className="navbarContainer">
+            <nav className="navbar navbar-expand-lg px-5 py-0 md">
+                <a className="navbar-brand d-inline-block align-top" href="http://www.hunterfirstaid.training">
+                    <img style={{ width: "360px"}} src={logo} alt="logo"></img>
+                </a>
+                <div className="collapse navbar-collapse d-flex justify-content-end" id="navbar1">
+                    {state.isAuthenticated ? userLink : loginRegLink}
+                </div>
+            </nav>
+        </container>
     );
 }
 

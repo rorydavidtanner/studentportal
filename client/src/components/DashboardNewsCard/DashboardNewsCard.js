@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import { Link, useHistory } from 'react-router-dom';
-import { useAppContext } from '../../store';
-import { useLoginCheck, logout } from '../../utils/setAuthToken';
+import { Link } from 'react-router-dom';
+//import { useAppContext } from '../../store';
+//import { useLoginCheck, logout } from '../../utils/setAuthToken';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function DashboardNewsCard() {

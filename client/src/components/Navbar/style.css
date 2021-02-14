@@ -2,12 +2,18 @@
     background-color:#27D6C0;
 }
 
+.navbarContainer {
+    display: inline;
+    width: 100%;
+   
+}
+
 .btn {
     background-color: #ffffff !important;
     color: rgb(0, 0, 0) !important;
     display:inline-block;
     padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
+    border:0.4em solid rgb(151, 150, 150);
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     box-sizing: border-box;
@@ -16,6 +22,7 @@
     font-weight:300;
     text-align:center;
     transition: all 0.2s;
+    align-content: center;
 }
 .nav-item:hover {
     color:#000000;
@@ -30,6 +37,10 @@
 
 .navbar-brand {
     float: left;
+    position: relative;
+    margin-left: -5%;
+    margin-top: 5%;
+
 }
 
 

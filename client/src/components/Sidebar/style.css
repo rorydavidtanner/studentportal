@@ -6,7 +6,6 @@ aside
     left: 0;
     margin: auto;
     padding: 2 pt;
-    
 }
 
 
@@ -14,4 +13,8 @@ aside
     background-color:#27D6C0;
     margin: auto;
     padding: 2 pt;
+}
+
+.sidebarItems {
+    align-items: center;
 }

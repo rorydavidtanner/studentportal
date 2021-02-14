@@ -14,7 +14,7 @@ import Profile from './components/Profile/Profile';
 //import StartUp from './components/pages/StartUp/StartUp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AppContextProvider } from './store';
-import Auth from './Auth';
+//import Auth from './Auth';
 
 import './App.css';
 
