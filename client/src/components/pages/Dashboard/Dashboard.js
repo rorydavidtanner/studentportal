@@ -14,7 +14,10 @@ function DashBoard() {
         <div className="pl-10 container-fluid">
             <Sidebar />
             <div>
-                <h1>
+                <h1 style={{
+                    padding: '20px',
+                    marginLeft: '15%',
+                }}>
                     Welcome {state.user.first_name} {state.user.last_name}
                 </h1>
                 <div className="flex-row-reverse mr-8 d-flex">
