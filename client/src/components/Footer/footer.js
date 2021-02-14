@@ -9,7 +9,7 @@ const Footer = () => {
             <span 
                 style={{
                     color: "#fff",
-                    top: "1rem",
+                    top: "0.5rem",
                     left: "1rem",
                     position: "relative",
                 }}
@@ -25,7 +25,7 @@ export default Footer
 
 const FooterContainer = styled.footer`
     background: #27D6C0 !important;
-    height: 4rem;
+    height: 3rem;
     position: fixed;
     left: 0;
     bottom: 0;
