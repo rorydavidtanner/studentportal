@@ -1,9 +1,28 @@
 .dashboardCard {
-    width: 60%;
+    width: 65%;   
+    position: relative;
     min-height: 400px;
+    margin: auto;
 }
 
 .bottomLink {
     position: absolute; 
     bottom: 5px; 
+    right: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    align-content: center;
 }

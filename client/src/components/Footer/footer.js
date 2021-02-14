@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 
 
@@ -13,7 +14,7 @@ const Footer = () => {
                     position: "relative",
                 }}
             >
-                &copy;{new Date().getFullYear()} All Rights Reserved. Hunter First Aid.
+                &copy; Hunter First Aid. {new Date().getFullYear()}. All Rights Reserved. 
             </span>
         </FooterContainer>
     )

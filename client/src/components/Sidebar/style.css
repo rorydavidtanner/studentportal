@@ -2,12 +2,15 @@ aside
 {
     position: absolute;
     height: 80%;
-    top: 5;
+    top: 10;
     left: 0;
-    
+    margin: auto;
+    padding: 2 pt;
 }
 
 .sidebar {
     background-color:#27D6C0;
+    margin: auto;
+    padding: 2 pt;
 
 }

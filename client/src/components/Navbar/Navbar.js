@@ -58,7 +58,7 @@ function Navbar() {
         </ul>
     );
     return (
-        <nav className="navbar navbar-expand-lg px-5 py-0">
+        <nav className="navbar navbar-expand-lg px-5 py-0 md">
             <a className="navbar-brand" href="http://www.hunterfirstaid.training">
                 <img style={{ width: "380px"}} src={logo} alt="logo"></img>
             </a>
