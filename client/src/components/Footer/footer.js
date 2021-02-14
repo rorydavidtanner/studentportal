@@ -25,7 +25,7 @@ export default Footer
 
 const FooterContainer = styled.footer`
     background: #27D6C0 !important;
-    height: 3rem;
+    height: 2.5 rem;
     position: fixed;
     left: 0;
     bottom: 0;

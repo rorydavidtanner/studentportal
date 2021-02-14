@@ -26,3 +26,11 @@ p {
 .btn {
     align-content: center;
 }
+
+#formBtn {
+    text-align: center;    
+}
+
+.dashboardCard {
+    float: right;
+}

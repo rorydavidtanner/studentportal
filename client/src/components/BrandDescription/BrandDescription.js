@@ -10,8 +10,7 @@ function BrandDescription() {
                         <h5 className="card-title">Hunter First Aid - Local, Comprehensive and Individualised CPR and First Aid Training</h5><br></br>
                         <p className="card-text">
                         <div class="text-center d-grid gap-2 fluid" id="">
-                        <h6>Welcome to the Student Portal </h6>
-                        <h7>The portal enables you to access and complete your forms online whenever you are able to complete them.</h7>
+                        <h5>The portal enables you to access and complete your forms online.</h5>
                         </div>
                         </p>
                     </div>

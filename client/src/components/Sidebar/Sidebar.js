@@ -18,7 +18,7 @@ function Sidebar() {
                 <hr className="sidebar-divider" />
 
                 {/* Nav Item - Dashboard */}
-                <Item
+                <Item class = "sidebarItems"
                     active={''}
                     href={'/dashboard'}
                     icon={<i className="fas fa-folder-minus" />}

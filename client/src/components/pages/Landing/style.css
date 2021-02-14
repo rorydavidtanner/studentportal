@@ -3,6 +3,7 @@
     background-size:     cover;                  
     background-repeat:   no-repeat;
     background-position: center center;
+    width: 100%;
 }
 
 .landingJumbo {
@@ -29,7 +30,8 @@
 
 .btn {
     background-color: rgb(140, 140, 140) !important;
-    outline-style: hidden !important;
+    border: cornsilk;
+    border-width: 5px;
     outline-color: white !important;
     padding: 15px !important;
 }
