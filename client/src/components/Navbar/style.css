@@ -32,15 +32,18 @@
 .btn {
     display:block;
     margin:0.4em auto;
+    margin-bottom: 10%;
 }
+}
+
+.navbar-nav {
+    margin-bottom: 10%;
 }
 
 .navbar-brand {
     float: left;
-    position: relative;
+    
     margin-left: -5%;
-    margin-top: 5%;
-
 }
 
 
